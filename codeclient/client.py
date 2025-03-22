@@ -5,10 +5,10 @@ from cryptography.fernet import Fernet
 import os 
 
 # Server details
-SERVER_IP = "192.168.1.17"  #  this ;y server's IP
+SERVER_IP = "192.168.1.17"  
 SERVER_PORT = 12345
 
-# Function to connect and receive the encrypted file
+
 def connect_to_server():
     password = password_entry.get()
     if not password:
